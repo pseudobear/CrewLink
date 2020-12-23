@@ -5,7 +5,7 @@ import yml from 'js-yaml';
 import { HKEY, enumerateValues } from 'registry-js';
 import spawn from 'cross-spawn';
 import GameReader from './GameReader';
-import iohook from 'iohook';
+// import iohook from 'iohook';
 import Store from 'electron-store';
 import { ISettings } from '../common/ISettings';
 import axios, { AxiosError } from 'axios';
